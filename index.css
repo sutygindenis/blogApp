@@ -1,0 +1,56 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    padding: 150px;
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.input-box-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 40px;
+}
+
+
+.post {
+    height: 250px;
+}
+
+.title-input-box {
+    width: 100%;
+    height: 100%;
+}
+
+
+.input-text {
+    display: block;
+    /* padding: 20px 10px; */
+    /* width: 100%; */
+    /* height: 100%; */
+    
+
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.new-post-btn {
+    width: 100%;
+    
+    font-size: 32px;
+    line-height: 60px;
+    color: #FFFFFF;
+
+    background-color: #0094FF;
+    cursor: pointer;
+}
